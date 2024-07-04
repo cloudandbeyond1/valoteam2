@@ -32,14 +32,15 @@ export default function Home() {
                 <Hero4 />
                 <Brand4 />
                
+              
+                <Service4 />
                 <Testimonial4 />
-                {/* <Service4 />
-                <About4 /> */}
+                <About4 />
                 <Project4 />
-                {/* <Team4 />
+                <Team4 />
                 <Achievement4 />
-                <Faq2 /> */}
-                {/* <News4 /> */}
+                <Faq2 />
+                <News4 />
             </Layout>        </>
     )
 }

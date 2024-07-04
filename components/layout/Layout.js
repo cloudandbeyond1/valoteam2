@@ -40,7 +40,7 @@ export default function Layout({ headerStyle, footerStyle, onePageNav, breadcrum
     }, [])
     return (
         <>
-            <MouseCursor />
+            {/* <MouseCursor />     */}
             <Offcanvas isOffCanvas={isOffCanvas} handleOffCanvas={handleOffCanvas} />
 
             {!headerStyle && <Header2 scroll={scroll} onePageNav={onePageNav} isOffCanvas={isOffCanvas} handleOffCanvas={handleOffCanvas} isSearch={isSearch} handleSearch={handleSearch} />}

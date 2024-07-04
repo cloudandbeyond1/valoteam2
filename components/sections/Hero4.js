@@ -128,6 +128,10 @@
 
 import Link from 'next/link';
 import VideoPopup from '../elements/VideoPopup';
+import Button from '@mui/material/Button';
+import DeleteIcon from '@mui/icons-material/Delete';
+import SendIcon from '@mui/icons-material/Send';
+import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 
 export default function Hero4() {
     return (
@@ -140,8 +144,16 @@ export default function Hero4() {
                     <div className="row g-4 align-items-center">
                         <div className="col-lg-6">
                             <div className="hero-content hero4new">
-                                <h1 className="wow fadeInUp hero4titlenew" data-wow-delay=".3s">Building a company that matters</h1>
-                                <p className="wow fadeInUp heroPtag" data-wow-delay=".5s" style={{color:"#ffffff"}}>A digital solutions company with a strong emphasis on AI and core technologies.</p>
+                                <h1 className="wow fadeInUp hero4titlenew" data-wow-delay=".3s">Renting made quick & simple.</h1>
+                                <p className="wow fadeInUp heroPtag" data-wow-delay=".5s" style={{color:"#ffffff"}}>Your Boston Housing Journey Starts Here. Simple Solutions for Renters</p>
+                                <div style={{paddingTop:"20px"}}>
+                                <Button variant="contained" endIcon={<ArrowOutwardIcon />} style={{marginRight:"10px",padding:"16px 24px",borderRadius:"32px",backgroundColor:"#044895", fontSize:"12px"}}>
+        Find my home
+      </Button>
+                                <Button variant="outlined" endIcon={<ArrowOutwardIcon />}  style={{padding:"16px 24px",color:"white",borderRadius:"32px",fontSize:"12px", border:"1px solid #ffe900"}}>
+                                Find Roommates
+      </Button>
+      </div>
                             </div>
                         </div>
                     </div>

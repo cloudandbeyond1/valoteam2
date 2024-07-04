@@ -8,7 +8,7 @@ export default function Menu() {
             <ul>
                 <li className="has-dropdown active menu-thumb">
                     <Link href="/">
-                    Capabilities
+                    Street Review
                         <i className="fas fa-angle-down ps-1" />
                     </Link>
                     {/* <ul className="submenu has-homemenu">
@@ -91,12 +91,12 @@ export default function Menu() {
                     </ul> */}
                 </li>
                 <li>
-                    <Link href="/about">Resource Hub </Link>
+                    <Link href="/about">Student Buddy</Link>
                 </li>
                 <li>
                     <Link href="/news">
                         
-About Us
+                    Housing Checklist
                         {/* <i className="fas fa-angle-down ps-1" /> */}
                     </Link>
                     {/* <ul className="submenu">
@@ -105,12 +105,12 @@ About Us
                         <li><Link href="/service-details">Service Details</Link></li>
                     </ul> */}
                 </li>
-                <li className="has-dropdown">
+                {/* <li className="has-dropdown">
                     <Link href="/news">
-                    E-Academy
-                        {/* <i className="fas fa-angle-down ps-1" /> */}
+                    Housing Checklist
+                        <i className="fas fa-angle-down ps-1" />
                     </Link>
-                    {/* <ul className="submenu">
+                    <ul className="submenu">
                         <li className="has-dropdown">
                             <Link href="/project">
                                 Projects
@@ -136,8 +136,8 @@ About Us
                         <li><Link href="/pricing">Pricing</Link></li>
                         <li><Link href="/faq">Faq's</Link></li>
                         <li><Link href="/404">404 Page</Link></li>
-                    </ul> */}
-                </li>
+                    </ul>
+                </li> */}
                 {/* <li>
                     <Link href="/news">
                         Blog

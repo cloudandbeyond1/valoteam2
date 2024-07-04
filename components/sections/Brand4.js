@@ -13,7 +13,7 @@ export default function Brand4() {
                         <BrandSlider2 />
                     </div>
                 </div>
-                <div className="container brans4one" >
+                {/* <div className="container brans4one" >
                     <h2 style={{
     fontWeight: "600",
     lineHeight: "120%",
@@ -24,7 +24,7 @@ export default function Brand4() {
     lineHeight: "140%",
     color: "#505F79",
     margin: "16px 0 0 0"}}>With a legacy and reputation carved out as a leading SAP player, we are evolving to become a global player, emphasizing AI and core technologies, SAP, Salesforce and ServiceNow.</p>
-                </div>
+                </div> */}
             </div>
         </>
     )
