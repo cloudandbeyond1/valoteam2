@@ -7609,6 +7609,169 @@ input.main-search-input::placeholder {
     gap: 40px;
   }
 }
+
+.date-picker {
+  display: flex;
+  flex-wrap: wrap;
+}
+.date-option {
+  margin-right: 10px;
+  margin-top: 12px;
+  padding: 10px 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+.date-option.selected {
+  background-color:#044895;
+color: white;  
+}
+
+.date-option:hover {
+  background-color: #0056b3; /* Define your hover color */
+  color: white;  
+}
+.date-option h3{
+  font-size: 24px;
+  color: #585858;
+}
+
+.date-option.selected h3{
+  color: white;
+}
+
+.date-option:hover h3{
+  color: white;
+} 
+
+
+@media (max-width: 575px) {
+  .date-option h3{
+    font-size: 20px;
+    color: #585858;
+  }
+}
+
+
+.date-option h3 span{
+  font-size: 18px;
+}
+
+@media (max-width: 575px) {
+  .date-option h3 span{
+    padding-left: 3px;
+  }
+}
+
+
+
+.time-picker {
+  display: flex;
+  flex-wrap: wrap;
+}
+.time-option {
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.time-option:hover {
+  background-color: #0056b3; /* Define your hover color */
+  color: white;  
+}
+.time-option.selected {
+  background-color:#044895;
+  color: white;
+}
+.next-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #044895;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 25px;
+  width: 100%;
+
+}
+
+.next-button:hover {
+  background-color: #0056b3; /* Define your hover color */
+}
+
+.new-team{
+  background-color: #efefeff5;
+  padding: 25px;
+}
+
+.team-details-image {
+  position: relative;
+}
+
+.scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.scroll-button.left {
+  left: 10px;
+}
+
+.scroll-button.right {
+  right: 10px;
+}
+
+.thumbnail-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.thumbnail {
+  width: 30%;
+  cursor: pointer;
+  transition: transform 0.3s;
+  margin-top: 10px;
+}
+
+.thumbnail:hover {
+  transform: scale(1.1);
+}
+
+/* .picker-date{
+  display: flex;
+  flex-direction: column;
+}
+.postnew-date {
+  padding: 10px 21px;
+  background-color: var(--theme);  
+  margin-top: 15px;
+  border-radius: 12px;
+  width: 81px;
+}
+.postnew-date h3{
+  color: white;
+} */
+
+.picker-date {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
+
 .testimonial-wrapper .testimonial-items .tesimonial-image {
   max-width: 366px;
   flex-basis: 85%;
